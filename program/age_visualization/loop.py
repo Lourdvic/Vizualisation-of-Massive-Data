@@ -1,5 +1,7 @@
 from .percent import *
 from .number import *
+from .treemap_by_region import *
+import sys
 
 def loop():
     topics = [
@@ -12,8 +14,16 @@ def loop():
             "fonction": percent
         },
         {
+            "topicName": "Treemap by region (Treemap)",
+            "fonction": treemap
+        },
+        {
             "topicName": "Return",
             "fonction": 0
+        },
+        {
+            "topicName": "Quit",
+            "fonction": sys.exit
         }
     ]
 
@@ -24,7 +34,7 @@ def loop():
         choice = int(input("\nChoose your topic :\n"), 10) - 1
         if choice >= len(topics):
             print("Invalid input")
-        elif choice == len(topics) - 1:
+        elif choice == len(topics) - 2:
             break
         else:
             topics[choice]['fonction']()    
