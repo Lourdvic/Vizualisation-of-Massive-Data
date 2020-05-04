@@ -4,11 +4,11 @@ from .number import *
 def loop():
     topics = [
         {
-            "topicName": "Number of persons by age",
+            "topicName": "Number of persons by age (Scatter plot)",
             "fonction": number
         },
         {
-            "topicName": "Percent of persons by age",
+            "topicName": "Percent of persons by age (Scatter plot)",
             "fonction": percent
         },
         {

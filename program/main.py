@@ -1,4 +1,5 @@
 import age_visualization
+import sys
 
 print("COVID_19 Big Data Visualization")
 
@@ -9,7 +10,7 @@ topics = [
     },
     {
         "topicName": "Quit",
-        "fonction": quit
+        "fonction": sys.exit
     }
 ]
 
