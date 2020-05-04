@@ -1,6 +1,7 @@
 from .percent import *
 from .number import *
 from .treemap_by_region import *
+from .treemap_by_age import *
 import sys
 
 def loop():
@@ -15,7 +16,11 @@ def loop():
         },
         {
             "topicName": "Treemap by region (Treemap)",
-            "fonction": treemap
+            "fonction": treemap_by_region
+        },
+        {
+            "topicName": "Treemap by age (Treemap)",
+            "fonction": treemap_by_age
         },
         {
             "topicName": "Return",
@@ -37,4 +42,4 @@ def loop():
         elif choice == len(topics) - 2:
             break
         else:
-            topics[choice]['fonction']()    
+            topics[choice]['fonction']()
