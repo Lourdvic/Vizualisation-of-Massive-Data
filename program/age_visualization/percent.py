@@ -9,7 +9,7 @@ import math
 
 def percent():
     # load the dataset and print the first lines
-    data = pd.read_csv('../data/covid19.csv')
+    data = pd.read_csv('data/covid19.csv')
     data = data.to_numpy()
 
     fig = plt.figure()
