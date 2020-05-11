@@ -1,6 +1,7 @@
 import age_visualization
 import treemap
 import sys
+import Prediction
 
 print("COVID_19 Big Data Visualization")
 
@@ -12,6 +13,10 @@ topics = [
     {
         "topicName": "Covid cases visualization",
         "fonction": treemap.loop
+    },
+    {
+        "topicName": "Predictive analysis",
+        "fonction": Prediction.predictive_analysis
     },
     {
         "topicName": "Quit",
