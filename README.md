@@ -6,16 +6,19 @@ To use the program just launch the main.py script
 
 Then choose:
 
-1 for Age Visualization
-  then choose the different kind of visualization you want to display
+# 1 : for "Age Visualization"
+
+then choose the type of visualization of your choice to display
   
 OR
 
- 2 : for Covid cases visualization
+# 2 : for "Covid cases visualization"
  
- Choose your country
+Choose your country
  
- And you will see a tree map & a scatter plot visualization of the spread of the virus
-  
+And you will see a tree map & a scatter plot visualization of the spread of the virus
+
+
+For more information check the doc
  
 
